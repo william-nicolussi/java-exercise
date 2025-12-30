@@ -1,4 +1,4 @@
-package myZelda.src;
+package myCode.src;
 
 import javax.swing.*;
 import java.awt.*;
@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
-import myZelda.game.Camera;
+import myCode.game.Camera;
 
 public class RenderEngine extends JPanel implements Engine {
     private ArrayList<Displayable> renderList; // list of elements displayed
@@ -20,7 +20,7 @@ public class RenderEngine extends JPanel implements Engine {
 
         // Load default background image (tree)
         try {
-            imageBackground = ImageIO.read(new File("myZelda/img/tree.png"));
+            imageBackground = ImageIO.read(new File("myCode/img/tree.png"));
         } catch (IOException e) {
             e.printStackTrace();
             imageBackground = null;

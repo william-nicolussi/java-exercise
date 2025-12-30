@@ -1,10 +1,10 @@
-package myZelda.game;
+package myCode.game;
 
-import myZelda.src.*;
-import myZelda.game.*;
+import myCode.src.*;
+import myCode.game.*;
 
 import java.util.ArrayList;
-import myZelda.src.Playground;
+import myCode.src.Playground;
 
 public class LevelManager
 {
@@ -16,8 +16,8 @@ public class LevelManager
     {
         // List of levels
         levels = new ArrayList<>();
-        levels.add("myZelda/data/level1.txt");
-        levels.add("myZelda/data/level2.txt");
+        levels.add("myCode/data/level1.txt");
+        levels.add("myCode/data/level2.txt");
         
         currentLevelIndex = 0;
         currentPlayground = new Playground(levels.get(currentLevelIndex));

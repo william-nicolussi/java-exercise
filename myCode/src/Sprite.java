@@ -4,7 +4,7 @@
 	The render engine uses a list of Sprite
 */
 
-package myZelda.src;
+package myCode.src;
 //package src;
 
 import java.awt.*;

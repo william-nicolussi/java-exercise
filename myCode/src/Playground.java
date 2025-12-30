@@ -1,4 +1,4 @@
-package myZelda.src;
+package myCode.src;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -15,11 +15,11 @@ public class Playground {
 
     public Playground(String pathName) {
         try {
-            final Image imageTree = ImageIO.read(new File("myZelda/img/tree.png"));
-            final Image imageGrass = ImageIO.read(new File("myZelda/img/grass.png"));
-            final Image imageRock = ImageIO.read(new File("myZelda/img/rock.png"));
-            final Image imageTrap = ImageIO.read(new File("myZelda/img/trap.png"));
-            final Image imageNewLevel = ImageIO.read(new File("myZelda/img/stairsDownGrass.png"));
+            final Image imageTree = ImageIO.read(new File("myCode/img/tree.png"));
+            final Image imageGrass = ImageIO.read(new File("myCode/img/grass.png"));
+            final Image imageRock = ImageIO.read(new File("myCode/img/rock.png"));
+            final Image imageTrap = ImageIO.read(new File("myCode/img/trap.png"));
+            final Image imageNewLevel = ImageIO.read(new File("myCode/img/stairsDownGrass.png"));
 
             final int imageTreeWidth = imageTree.getWidth(null);
             final int imageTreeHeight = imageTree.getHeight(null);

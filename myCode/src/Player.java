@@ -1,4 +1,4 @@
-package myZelda.src;
+package myCode.src;
 
 import java.awt.*;
 import java.awt.geom.Rectangle2D;

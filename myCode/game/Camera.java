@@ -1,4 +1,4 @@
-package myZelda.game;
+package myCode.game;
 
 public class Camera {
     private double offsetX;

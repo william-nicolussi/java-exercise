@@ -1,6 +1,6 @@
-package myZelda.game;
+package myCode.game;
 
-import myZelda.src.*;
+import myCode.src.*;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -43,8 +43,8 @@ public class TitlePanel extends JPanel implements KeyListener, Engine {
         addKeyListener(this);
 
         try {
-            linkAsleep = ImageIO.read(new File("myZelda/img/LinkAsleep.png"));
-            titleImage = ImageIO.read(new File("myZelda/img/Title.png"));
+            linkAsleep = ImageIO.read(new File("myCode/img/LinkAsleep.png"));
+            titleImage = ImageIO.read(new File("myCode/img/Title.png"));
         } catch (IOException e) {
             throw new RuntimeException("Could not load title images", e);
         }
@@ -75,7 +75,7 @@ public class TitlePanel extends JPanel implements KeyListener, Engine {
         int panelHeight = getHeight();
 
         try {
-            BufferedImage grassTile = ImageIO.read(new File("myZelda/img/grass.png"));
+            BufferedImage grassTile = ImageIO.read(new File("myCode/img/grass.png"));
             for (int x = 0; x < panelWidth; x += grassTile.getWidth()) {
                 for (int y = 0; y < panelHeight; y += grassTile.getHeight()) {
                     g.drawImage(grassTile, x, y, null);

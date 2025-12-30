@@ -3,14 +3,14 @@ The 'GameEngine' handles user interactions (using the keyboard). In a more ambit
 it would also load levels, manage game overs, etc.
 */
 
-package myZelda.src;
+package myCode.src;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
 import java.awt.geom.Rectangle2D;
-import myZelda.game.LevelManager;
-import myZelda.game.Camera;
+import myCode.game.LevelManager;
+import myCode.game.Camera;
 
 public class GameEngine implements Engine, KeyListener
 {

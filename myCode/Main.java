@@ -1,7 +1,7 @@
-package myZelda;
+package myCode;
 
-import myZelda.src.*;
-import myZelda.game.*;
+import myCode.src.*;
+import myCode.game.*;
 
 import javax.swing.*;
 
@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            JFrame sharedFrame = new JFrame("myZelda");
+            JFrame sharedFrame = new JFrame("myCode");
             sharedFrame.setSize(windowWidth, windowHeight);
             sharedFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             sharedFrame.setLocationRelativeTo(null); // Center the window

@@ -1,11 +1,11 @@
-package myZelda.game;
+package myCode.game;
 
 import javax.imageio.ImageIO;
 import java.awt.BorderLayout;
 import javax.swing.*;
 import java.io.File;
 
-import myZelda.src.*;
+import myCode.src.*;
 
 public class GamePanel extends JPanel {
     private RenderEngine renderE;
@@ -17,7 +17,7 @@ public class GamePanel extends JPanel {
         setLayout(new BorderLayout());
 
         // Create the player
-        Player hero = new Player(200, 300, ImageIO.read(new File("myZelda/img/heroTileSheetLowRes.png")), 48, 50);
+        Player hero = new Player(200, 300, ImageIO.read(new File("myCode/img/heroTileSheetLowRes.png")), 48, 50);
         levelManager = new LevelManager();
 
         // Initialize game engines

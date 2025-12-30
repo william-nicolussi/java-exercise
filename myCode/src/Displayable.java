@@ -3,7 +3,7 @@
 	The classes that implements this interface are Sprite, SolidSprite and DynamicSprite.
 */
 
-package myZelda.src;
+package myCode.src;
 
 import java.awt.*;
 
