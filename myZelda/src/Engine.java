@@ -2,7 +2,7 @@
 	This is an interface, we will need to implement the method update in GameEngine, PhysicEngine, RenderEngine.
 */
 
-package myGame.src;
+package myZelda.src;
 
 public interface Engine
 {

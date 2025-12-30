@@ -3,7 +3,7 @@
 	The physics engine uses a list of SolidSprite
 */
 
-package myGame.src;
+package myZelda.src;
 //package src;
 
 import java.awt.*;

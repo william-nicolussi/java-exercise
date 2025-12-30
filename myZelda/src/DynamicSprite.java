@@ -3,7 +3,7 @@
 	The game engine has a reference to the hero
 */
 
-package myGame.src;
+package myZelda.src;
 
 import java.awt.*;
 import java.awt.geom.Rectangle2D;

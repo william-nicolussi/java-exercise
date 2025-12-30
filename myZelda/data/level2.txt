@@ -1,0 +1,20 @@
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+T       T     T     T     T        T
+T TTT T T TTT T TTT T TTT T TTTTTT T
+T T   T     T     T     T       T  T
+T   TTTTTTT T TTTTTTT TTTTTTTTT T TT
+T     T     T     T     T       T  T
+TTTTT T TTTTT TTT TTTTT T TTTTTTT  T
+T     T     T   T     T T   T      T
+T TTTTT TTT TTT T TTTTT T T TTTTTT T
+T T       T     T     T   T        T
+T T TTTTT T TTTTTTT TTTTTTT TTT TTTT
+T T     T     T   T     T   T      T
+T TTTTT TTTTT T TTTTT TTT T TTTT   T
+T     T     T T     T   T T       TT
+TTTTT T TTT T TTTTT T TTT T TTT    T
+T     T   T     T   T     T   T    T
+T TTTTT TTTTTTT TTTTT TTTTT T TTT  T
+T     T   T     T     T     T   T  T
+T TTTTT TTT TTT T TTTTTTTTT TTTT    .
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT

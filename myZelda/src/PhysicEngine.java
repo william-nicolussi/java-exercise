@@ -2,7 +2,7 @@
 The "PhysicEngine" is tasked with modeling the game’s physics.
 For us, this is relatively simple: we only manage constant speed and collisions.
 */
-package myGame.src;
+package myZelda.src;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

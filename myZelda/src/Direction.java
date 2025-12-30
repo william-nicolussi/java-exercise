@@ -3,7 +3,7 @@
 	This is an enum, it defines the directions the image of the charachter must point.
 */
 
-package myGame.src;
+package myZelda.src;
 
 public enum Direction
 {
